@@ -6,6 +6,7 @@ env:
 
 services:
   - docker
+  - python
 
 before_install:
 - docker image build -t ${IMGNAME} .
